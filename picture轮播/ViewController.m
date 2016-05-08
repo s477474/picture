@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"hello world");
     JECalourseView* calourse = [[JECalourseView alloc]initWithFrame:CGRectMake(25, 10, self.view.bounds.size.width-50, 200)];
     
     [self.view addSubview:calourse];
