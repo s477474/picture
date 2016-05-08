@@ -32,8 +32,5 @@
     [Cell.imageView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%ld.jpg",(long)index]]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
 
 @end
